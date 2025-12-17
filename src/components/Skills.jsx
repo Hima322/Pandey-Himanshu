@@ -1,5 +1,7 @@
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Skills() {
   const skills = [
@@ -18,15 +20,29 @@ export default function Skills() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 600,
-    slidesToShow: 4, // number of skills visible at once
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
+    arrows: false,
+    swipeToSlide: true,
     responsive: [
-      { breakpoint: 992, settings: { slidesToShow: 3 } },
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-      { breakpoint: 576, settings: { slidesToShow: 1 } },
+      {
+        breakpoint: 1200,
+        settings: { slidesToShow: 3 },
+      },
+      {
+        breakpoint: 992,
+        settings: { slidesToShow: 2 },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          dots: false,
+        },
+      },
     ],
   };
 
@@ -39,13 +55,15 @@ export default function Skills() {
       }}
     >
       <Container>
-        <div className="text-center mb-5">
-          <h2 className="fw-bold">My Skills</h2>
-          <p className="text-light">
+        {/* Heading */}
+        <div className="text-center mb-4">
+          <h2 className="fw-bold fs-2 fs-md-1">My Skills</h2>
+          <p className="text-light small">
             .NET Developer | Industrial Automation | Software Engineering
           </p>
         </div>
 
+        {/* Slider */}
         <Slider {...settings}>
           {skills.map((skill, idx) => (
             <Skill key={idx} icon={skill.icon} text={skill.text} />
@@ -58,22 +76,34 @@ export default function Skills() {
 
 function Skill({ icon, text }) {
   return (
-    <div
-      className="d-flex align-items-center justify-content-center mb-3 p-3 mx-2"
-      style={{
-        background: "rgba(255,255,255,0.08)",
-        borderRadius: "15px",
-        minHeight: "80px",
-        fontSize: "18px",
-        flexDirection: "column",
-        textAlign: "center",
-        transition: "0.3s",
-      }}
-    >
-      <span style={{ fontSize: "32px" }} className="mb-2">
-        {icon}
-      </span>
-      <span>{text}</span>
+    <div className="px-2">
+      <div
+        className="d-flex flex-column align-items-center justify-content-center text-center p-3"
+        style={{
+          background: "rgba(255,255,255,0.1)",
+          borderRadius: "16px",
+          minHeight: "90px",
+          transition: "all 0.3s ease",
+        }}
+      >
+        <span
+          style={{
+            fontSize: "28px",
+            marginBottom: "6px",
+          }}
+        >
+          {icon}
+        </span>
+
+        <span
+          style={{
+            fontSize: "14px",
+            lineHeight: "1.3",
+          }}
+        >
+          {text}
+        </span>
+      </div>
     </div>
   );
 }
