@@ -1,0 +1,19 @@
+.dark-hero {
+  background-color: #0f111a;
+  background: linear-gradient(135deg, #0f111a, #1a1f2b);
+  color: white;
+}
+
+.dark-hero h1, .dark-hero h4, .dark-hero h5 {
+  color: white;
+}
+
+.dark-hero .btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.dark-hero .btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
