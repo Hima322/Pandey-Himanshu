@@ -1,16 +1,12 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { useEffect, useState } from "react";
+ import projects from "../data/project.json";
 
 export default function Experience() {
   const [count, setCount] = useState(0);
   const [projectIndex, setProjectIndex] = useState(0);
 
-  const projects = [
-    "Conveyor 24-Station Automation Line with QR Tracking",
-    "Frame Line Automation with PLC & Real-Time Monitoring",
-    "Power Line Assembly Automation with Torque Validation",
-    "Recliner Line Production System with Barcode Verification",
-  ];
+
 
   // Counter
   useEffect(() => {
