@@ -3,11 +3,17 @@ import "../styles/main.css";
 
 export default function Skills() {
   const skills = [
-    { icon: "🪟", text: "Windows Forms (WinForms)" },
-    { icon: "🔗", text: "REST API Development" },
-    { icon: "⚛️", text: "React.js" },
-    { icon: "📜", text: "JavaScript / jQuery / AJAX" },
-    { icon: "💻", text: "ASP.NET / ASP.NET Core" },
+    { icon: "🧩", text: "ASP.NET Web Forms" },
+{ icon: "🏗️", text: "ASP.NET MVC" },
+{ icon: "🗄️", text: "SQL Server" },
+{ icon: "🐬", text: "MySQL" },
+{ icon: "🔌", text: "ADO.NET" },
+{ icon: "📊", text: "Database Design & Optimization" },
+{ icon: "🔐", text: "Authentication & Authorization" },
+{ icon: "⚙️", text: "Web API Integration" },
+{ icon: "📦", text: "Entity Framework" },
+{ icon: "🛠️", text: "Stored Procedures & Views" }
+
   ];
 
   return (
