@@ -1,75 +1,103 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 👨‍💻 Himanshu Pandey — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio repository! 🚀
+This portfolio showcases my **skills, experience, and projects** as a **Software Engineer** with a strong focus on **industrial automation software and full-stack web development**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Portfolio
 
-### `npm start`
+🔗 **Live Demo:** [https://hima322.github.io/Pandey-Himanshu](https://hima322.github.io/Pandey-Himanshu)
+*(If not live yet, enable GitHub Pages from repository settings)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧑‍💼 About Me
 
-### `npm test`
+I am a **Software Engineer** with hands-on experience in developing **industrial and enterprise-level applications**. I specialize in building **real-time dashboards, machine monitoring systems, and responsive web applications**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 💼 **Current Role:** Software Engineer
+* 🏭 **Domain:** Industrial Automation & Manufacturing Software
+* 💻 **Tech Stack:** ASP.NET, C#, SQL Server, Web API, React, JavaScript
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Skills
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Frontend:** HTML, CSS, JavaScript, Bootstrap, React.js
+* **Backend:** ASP.NET MVC, ASP.NET Core, Web API, C#
+* **Database:** SQL Server
+* **Industrial Tech:** PLC Integration, OEE Dashboards, ANDON Systems
+* **Tools:** Git, GitHub, VS Code, Postman
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📊 Key Projects
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🔹 OEE & ANDON Dashboards
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Real-time machine performance monitoring
+* Downtime analysis & Six Big Losses
+* Live status indicators with alarms
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🔹 Industrial Web Applications
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* ASP.NET MVC & Web API based systems
+* PLC data integration using MC Protocol
+* Role-based dashboards and reporting
 
-## Learn More
+### 🔹 Personal Portfolio (This Website)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Fully responsive design
+* Built using modern UI/UX practices
+* Hosted on GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📂 Repository Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+Pandey-Himanshu/
+│── public/
+│── src/
+│── assets/
+│── index.html
+│── package.json
+│── README.md
+```
 
-### Analyzing the Bundle Size
+*(Structure may vary based on updates)*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 How to Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If this is a React project:
 
-### Advanced Configuration
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For static HTML/CSS:
 
-### Deployment
+* Simply open `index.html` in a browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📬 Contact Me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Pandey-Himanshu
-MyPortfolio
->>>>>>> 33627d7f28fddae918fb122f7b339507144f795a
+* 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)
+* 💼 **LinkedIn:** [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
+* 🐙 **GitHub:** [https://github.com/Hima322](https://github.com/Hima322)
+
+---
+
+## ⭐ Acknowledgement
+
+If you like this portfolio, feel free to ⭐ the repository.
+Feedback and suggestions are always welcome!
+
+---
+
+**© 2025 Himanshu Pandey | Software Engineer**
