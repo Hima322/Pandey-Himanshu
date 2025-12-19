@@ -9,16 +9,21 @@ export default function Experience() {
 
 
   // Counter
-  useEffect(() => {
-    let current = 0;
-    const end = 19;
-    const timer = setInterval(() => {
-      current++;
-      setCount(current);
-      if (current === end) clearInterval(timer);
-    }, 70);
-    return () => clearInterval(timer);
-  }, []);
+useEffect(() => {
+  let current = 0;
+  const end = 19;
+  const duration = 3000; 
+  const interval = duration / end; 
+
+  const timer = setInterval(() => {
+    current++;
+    setCount(current);
+    if (current === end) clearInterval(timer);
+  }, interval);
+
+  return () => clearInterval(timer);
+}, []);
+
 
   // Project text rotate
   useEffect(() => {
