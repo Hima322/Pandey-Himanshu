@@ -12,7 +12,7 @@ export default function Experience() {
 useEffect(() => {
   let current = 0;
   const end = 19;
-  const duration = 3000; 
+  const duration = 4000; 
   const interval = duration / end; 
 
   const timer = setInterval(() => {
