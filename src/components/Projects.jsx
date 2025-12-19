@@ -112,7 +112,7 @@ export default function Projects() {
                       target="_blank"
                       disabled={project.demo === "#"}
                     >
-                      Live Demo
+                      GitHub
                     </Button>
                   </div>
                 </Card.Body>
