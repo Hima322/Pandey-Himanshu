@@ -74,7 +74,7 @@ export default function Hero() {
               </a>
 
               {/* Resume PDF */}
-              <a href="/HimanshuResume.pdf" download>
+              <a href="/ResumeHimanshu.pdf" download>
                 <Button variant="outline-light">My Resume</Button>
               </a>
             </motion.div>
