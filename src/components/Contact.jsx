@@ -18,8 +18,12 @@ export default function ContactSimple() {
         {/* Contact Details */}
         <div className="mb-4">
           <p>
-            <FaPhone className="me-2" /> +91 6392760053
+            <FaPhone className="me-2" />
+            <a href="tel:+916392760053" style={{ color: "inherit", textDecoration: "none" }}>
+              +91 6392760053
+            </a>
           </p>
+
           <p>
             <FaEnvelope className="me-2" /> hp2921065@gmail.com
           </p>
